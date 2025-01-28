@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B4E5B2B72CFB5B770095B37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4E5B29D2CFB5B750095B37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E5B2A42CFB5B750095B37A;
+			remoteInfo = StickyNotesApp;
+		};
+		B4E5B2C12CFB5B770095B37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4E5B29D2CFB5B750095B37A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E5B2A42CFB5B750095B37A;
+			remoteInfo = StickyNotesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4E5B2A52CFB5B750095B37A /* StickyNotesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickyNotesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E5B2B62CFB5B770095B37A /* StickyNotesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickyNotesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E5B2C02CFB5B770095B37A /* StickyNotesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickyNotesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B4E5B2A72CFB5B750095B37A /* StickyNotesApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StickyNotesApp;
+			sourceTree = "<group>";
+		};
+		B4E5B2B92CFB5B770095B37A /* StickyNotesAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StickyNotesAppTests;
+			sourceTree = "<group>";
+		};
+		B4E5B2C32CFB5B770095B37A /* StickyNotesAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StickyNotesAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4E5B2A22CFB5B750095B37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E5B2B32CFB5B770095B37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E5B2BD2CFB5B770095B37A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4E5B29C2CFB5B750095B37A = {
+			isa = PBXGroup;
+			children = (
+				B4E5B2A72CFB5B750095B37A /* StickyNotesApp */,
+				B4E5B2B92CFB5B770095B37A /* StickyNotesAppTests */,
+				B4E5B2C32CFB5B770095B37A /* StickyNotesAppUITests */,
+				B4E5B2A62CFB5B750095B37A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4E5B2A62CFB5B750095B37A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4E5B2A52CFB5B750095B37A /* StickyNotesApp.app */,
+				B4E5B2B62CFB5B770095B37A /* StickyNotesAppTests.xctest */,
+				B4E5B2C02CFB5B770095B37A /* StickyNotesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4E5B2A42CFB5B750095B37A /* StickyNotesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E5B2CA2CFB5B770095B37A /* Build configuration list for PBXNativeTarget "StickyNotesApp" */;
+			buildPhases = (
+				B4E5B2A12CFB5B750095B37A /* Sources */,
+				B4E5B2A22CFB5B750095B37A /* Frameworks */,
+				B4E5B2A32CFB5B750095B37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B4E5B2A72CFB5B750095B37A /* StickyNotesApp */,
+			);
+			name = StickyNotesApp;
+			packageProductDependencies = (
+			);
+			productName = StickyNotesApp;
+			productReference = B4E5B2A52CFB5B750095B37A /* StickyNotesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4E5B2B52CFB5B770095B37A /* StickyNotesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E5B2CD2CFB5B770095B37A /* Build configuration list for PBXNativeTarget "StickyNotesAppTests" */;
+			buildPhases = (
+				B4E5B2B22CFB5B770095B37A /* Sources */,
+				B4E5B2B32CFB5B770095B37A /* Frameworks */,
+				B4E5B2B42CFB5B770095B37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E5B2B82CFB5B770095B37A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B4E5B2B92CFB5B770095B37A /* StickyNotesAppTests */,
+			);
+			name = StickyNotesAppTests;
+			packageProductDependencies = (
+			);
+			productName = StickyNotesAppTests;
+			productReference = B4E5B2B62CFB5B770095B37A /* StickyNotesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4E5B2BF2CFB5B770095B37A /* StickyNotesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E5B2D02CFB5B770095B37A /* Build configuration list for PBXNativeTarget "StickyNotesAppUITests" */;
+			buildPhases = (
+				B4E5B2BC2CFB5B770095B37A /* Sources */,
+				B4E5B2BD2CFB5B770095B37A /* Frameworks */,
+				B4E5B2BE2CFB5B770095B37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E5B2C22CFB5B770095B37A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B4E5B2C32CFB5B770095B37A /* StickyNotesAppUITests */,
+			);
+			name = StickyNotesAppUITests;
+			packageProductDependencies = (
+			);
+			productName = StickyNotesAppUITests;
+			productReference = B4E5B2C02CFB5B770095B37A /* StickyNotesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4E5B29D2CFB5B750095B37A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B4E5B2A42CFB5B750095B37A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B4E5B2B52CFB5B770095B37A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B4E5B2A42CFB5B750095B37A;
+					};
+					B4E5B2BF2CFB5B770095B37A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B4E5B2A42CFB5B750095B37A;
+					};
+				};
+			};
+			buildConfigurationList = B4E5B2A02CFB5B750095B37A /* Build configuration list for PBXProject "StickyNotesApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4E5B29C2CFB5B750095B37A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B4E5B2A62CFB5B750095B37A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4E5B2A42CFB5B750095B37A /* StickyNotesApp */,
+				B4E5B2B52CFB5B770095B37A /* StickyNotesAppTests */,
+				B4E5B2BF2CFB5B770095B37A /* StickyNotesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4E5B2A32CFB5B750095B37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E5B2B42CFB5B770095B37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E5B2BE2CFB5B770095B37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4E5B2A12CFB5B750095B37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E5B2B22CFB5B770095B37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E5B2BC2CFB5B770095B37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4E5B2B82CFB5B770095B37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E5B2A42CFB5B750095B37A /* StickyNotesApp */;
+			targetProxy = B4E5B2B72CFB5B770095B37A /* PBXContainerItemProxy */;
+		};
+		B4E5B2C22CFB5B770095B37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4E5B2A42CFB5B750095B37A /* StickyNotesApp */;
+			targetProxy = B4E5B2C12CFB5B770095B37A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4E5B2C82CFB5B770095B37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4E5B2C92CFB5B770095B37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B4E5B2CB2CFB5B770095B37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StickyNotesApp/StickyNotesApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StickyNotesApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamed.stickynotes.StickyNotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B4E5B2CC2CFB5B770095B37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StickyNotesApp/StickyNotesApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StickyNotesApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamed.stickynotes.StickyNotesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B4E5B2CE2CFB5B770095B37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamed.stickynotes.StickyNotesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickyNotesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StickyNotesApp";
+			};
+			name = Debug;
+		};
+		B4E5B2CF2CFB5B770095B37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamed.stickynotes.StickyNotesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickyNotesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StickyNotesApp";
+			};
+			name = Release;
+		};
+		B4E5B2D12CFB5B770095B37A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamed.stickynotes.StickyNotesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StickyNotesApp;
+			};
+			name = Debug;
+		};
+		B4E5B2D22CFB5B770095B37A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mohamed.stickynotes.StickyNotesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StickyNotesApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4E5B2A02CFB5B750095B37A /* Build configuration list for PBXProject "StickyNotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E5B2C82CFB5B770095B37A /* Debug */,
+				B4E5B2C92CFB5B770095B37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E5B2CA2CFB5B770095B37A /* Build configuration list for PBXNativeTarget "StickyNotesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E5B2CB2CFB5B770095B37A /* Debug */,
+				B4E5B2CC2CFB5B770095B37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E5B2CD2CFB5B770095B37A /* Build configuration list for PBXNativeTarget "StickyNotesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E5B2CE2CFB5B770095B37A /* Debug */,
+				B4E5B2CF2CFB5B770095B37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E5B2D02CFB5B770095B37A /* Build configuration list for PBXNativeTarget "StickyNotesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E5B2D12CFB5B770095B37A /* Debug */,
+				B4E5B2D22CFB5B770095B37A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4E5B29D2CFB5B750095B37A /* Project object */;
+}
